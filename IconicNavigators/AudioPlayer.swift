@@ -10,7 +10,19 @@ import AVFoundation
 class AudioPlayer {
     static var audioPlayer: AVAudioPlayer?
     
-    static func playSound(sound: String, type: String) {
+    static func playOneSound(sound: String, type: String) {
+        if let path = Bundle.main.path(forResource: sound, ofType: type) {
+            do {
+                try AVAudioSession.sharedInstance().setCategory(.playback)
+                audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
+                audioPlayer?.play()
+            } catch {
+                print("error playing sound: \(error.localizedDescription)")
+            }
+        }
+    }
+    
+    static func playBackground(sound: String, type: String) {
         if let path = Bundle.main.path(forResource: sound, ofType: type) {
             do {
                 try AVAudioSession.sharedInstance().setCategory(.playback)
