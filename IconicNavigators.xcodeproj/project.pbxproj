@@ -11,6 +11,10 @@
 		5DF121362AC6FC9E00A04725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121352AC6FC9E00A04725 /* ContentView.swift */; };
 		5DF121382AC6FC9F00A04725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF121372AC6FC9F00A04725 /* Assets.xcassets */; };
 		5DF1213B2AC6FC9F00A04725 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF1213A2AC6FC9F00A04725 /* Preview Assets.xcassets */; };
+		5DF121422AC6FCBA00A04725 /* PrinceHenryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121412AC6FCBA00A04725 /* PrinceHenryView.swift */; };
+		5DF121442AC6FCC300A04725 /* LincolnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121432AC6FCC300A04725 /* LincolnView.swift */; };
+		5DF121462AC6FCD000A04725 /* ZeldaNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121452AC6FCD000A04725 /* ZeldaNaviView.swift */; };
+		5DF121482AC6FCE100A04725 /* AppleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121472AC6FCE100A04725 /* AppleMapsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5DF121352AC6FC9E00A04725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DF121372AC6FC9F00A04725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DF1213A2AC6FC9F00A04725 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DF121412AC6FCBA00A04725 /* PrinceHenryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceHenryView.swift; sourceTree = "<group>"; };
+		5DF121432AC6FCC300A04725 /* LincolnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincolnView.swift; sourceTree = "<group>"; };
+		5DF121452AC6FCD000A04725 /* ZeldaNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaNaviView.swift; sourceTree = "<group>"; };
+		5DF121472AC6FCE100A04725 /* AppleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				5DF121332AC6FC9E00A04725 /* IconicNavigatorsApp.swift */,
 				5DF121352AC6FC9E00A04725 /* ContentView.swift */,
+				5DF121412AC6FCBA00A04725 /* PrinceHenryView.swift */,
+				5DF121432AC6FCC300A04725 /* LincolnView.swift */,
+				5DF121452AC6FCD000A04725 /* ZeldaNaviView.swift */,
+				5DF121472AC6FCE100A04725 /* AppleMapsView.swift */,
 				5DF121372AC6FC9F00A04725 /* Assets.xcassets */,
 				5DF121392AC6FC9F00A04725 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF121422AC6FCBA00A04725 /* PrinceHenryView.swift in Sources */,
 				5DF121362AC6FC9E00A04725 /* ContentView.swift in Sources */,
+				5DF121442AC6FCC300A04725 /* LincolnView.swift in Sources */,
 				5DF121342AC6FC9E00A04725 /* IconicNavigatorsApp.swift in Sources */,
+				5DF121482AC6FCE100A04725 /* AppleMapsView.swift in Sources */,
+				5DF121462AC6FCD000A04725 /* ZeldaNaviView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
