@@ -14,7 +14,7 @@
 		5DF121422AC6FCBA00A04725 /* PrinceHenryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121412AC6FCBA00A04725 /* PrinceHenryView.swift */; };
 		5DF121442AC6FCC300A04725 /* LincolnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121432AC6FCC300A04725 /* LincolnView.swift */; };
 		5DF121462AC6FCD000A04725 /* ZeldaNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121452AC6FCD000A04725 /* ZeldaNaviView.swift */; };
-		5DF121482AC6FCE100A04725 /* AppleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121472AC6FCE100A04725 /* AppleMapsView.swift */; };
+		5DF121482AC6FCE100A04725 /* MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121472AC6FCE100A04725 /* MapKit.swift */; };
 		5DF1214A2AC700EB00A04725 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121492AC700EB00A04725 /* AudioPlayer.swift */; };
 		5DF1214C2AC7031300A04725 /* vroom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF1214B2AC7031300A04725 /* vroom.mp3 */; };
 		5DF1214E2AC708C200A04725 /* watchOut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF1214D2AC708C200A04725 /* watchOut.mp3 */; };
@@ -32,7 +32,7 @@
 		5DF121412AC6FCBA00A04725 /* PrinceHenryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceHenryView.swift; sourceTree = "<group>"; };
 		5DF121432AC6FCC300A04725 /* LincolnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincolnView.swift; sourceTree = "<group>"; };
 		5DF121452AC6FCD000A04725 /* ZeldaNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaNaviView.swift; sourceTree = "<group>"; };
-		5DF121472AC6FCE100A04725 /* AppleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsView.swift; sourceTree = "<group>"; };
+		5DF121472AC6FCE100A04725 /* MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit.swift; sourceTree = "<group>"; };
 		5DF121492AC700EB00A04725 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		5DF1214B2AC7031300A04725 /* vroom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vroom.mp3; sourceTree = "<group>"; };
 		5DF1214D2AC708C200A04725 /* watchOut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = watchOut.mp3; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 				5DF121532AC7270C00A04725 /* CaboBlancoView.swift */,
 				5DF121432AC6FCC300A04725 /* LincolnView.swift */,
 				5DF121452AC6FCD000A04725 /* ZeldaNaviView.swift */,
-				5DF121472AC6FCE100A04725 /* AppleMapsView.swift */,
+				5DF121472AC6FCE100A04725 /* MapKit.swift */,
 				5DF121492AC700EB00A04725 /* AudioPlayer.swift */,
 				5DF1214B2AC7031300A04725 /* vroom.mp3 */,
 				5DF1214D2AC708C200A04725 /* watchOut.mp3 */,
@@ -175,7 +175,7 @@
 				5DF121522AC7270400A04725 /* AzoresView.swift in Sources */,
 				5DF121442AC6FCC300A04725 /* LincolnView.swift in Sources */,
 				5DF121342AC6FC9E00A04725 /* IconicNavigatorsApp.swift in Sources */,
-				5DF121482AC6FCE100A04725 /* AppleMapsView.swift in Sources */,
+				5DF121482AC6FCE100A04725 /* MapKit.swift in Sources */,
 				5DF121462AC6FCD000A04725 /* ZeldaNaviView.swift in Sources */,
 				5DF121542AC7270C00A04725 /* CaboBlancoView.swift in Sources */,
 				5DF1214A2AC700EB00A04725 /* AudioPlayer.swift in Sources */,
