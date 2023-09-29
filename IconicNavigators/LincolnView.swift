@@ -36,11 +36,15 @@ struct LincolnView: View {
             }
             .navigationTitle("Lincoln Navigator")
             .onAppear {
+                AudioPlayer.playSound(sound: "vroom", type: "mp3")
                 withAnimation(animation) {
                     offset1 += 800.0
                     offset2 -= 900.0
                     offset3 += 1400.0
                 }
+            }
+            .onDisappear {
+                AudioPlayer.stop()
             }
         }
     }
