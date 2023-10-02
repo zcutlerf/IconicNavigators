@@ -21,6 +21,7 @@
 		5DF121502AC726F700A04725 /* MadeiraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF1214F2AC726F700A04725 /* MadeiraView.swift */; };
 		5DF121522AC7270400A04725 /* AzoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121512AC7270400A04725 /* AzoresView.swift */; };
 		5DF121542AC7270C00A04725 /* CaboBlancoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF121532AC7270C00A04725 /* CaboBlancoView.swift */; };
+		5DF1215B2ACB08A100A04725 /* IconicNavigatorsannotatedhifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF1215A2ACB08A100A04725 /* IconicNavigatorsannotatedhifi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		5DF1214F2AC726F700A04725 /* MadeiraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadeiraView.swift; sourceTree = "<group>"; };
 		5DF121512AC7270400A04725 /* AzoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzoresView.swift; sourceTree = "<group>"; };
 		5DF121532AC7270C00A04725 /* CaboBlancoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaboBlancoView.swift; sourceTree = "<group>"; };
+		5DF121552ACAF29600A04725 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5DF1215A2ACB08A100A04725 /* IconicNavigatorsannotatedhifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconicNavigatorsannotatedhifi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 		5DF121272AC6FC9E00A04725 = {
 			isa = PBXGroup;
 			children = (
+				5DF121552ACAF29600A04725 /* README.md */,
+				5DF1215A2ACB08A100A04725 /* IconicNavigatorsannotatedhifi.png */,
 				5DF121322AC6FC9E00A04725 /* IconicNavigators */,
 				5DF121312AC6FC9E00A04725 /* Products */,
 			);
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF1214E2AC708C200A04725 /* watchOut.mp3 in Resources */,
+				5DF1215B2ACB08A100A04725 /* IconicNavigatorsannotatedhifi.png in Resources */,
 				5DF1213B2AC6FC9F00A04725 /* Preview Assets.xcassets in Resources */,
 				5DF121382AC6FC9F00A04725 /* Assets.xcassets in Resources */,
 				5DF1214C2AC7031300A04725 /* vroom.mp3 in Resources */,
