@@ -9,8 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        #warning("We need to add a Tab View here to connect our views!")
-        Text("todo: tab view")
+        TabView {
+            LincolnView()
+                .tabItem {
+                    Label("Lincoln", systemImage: "car")
+                }
+            
+            PrinceHenryView()
+                .tabItem {
+                    Label("Prince Henry", systemImage: "person")
+                }
+            ZeldaNaviView()
+                .tabItem {
+                    Label("Navi", systemImage: "sparkles")
+                }
+            MapKitView()
+                .tabItem {
+                    Label("MapKit", systemImage: "map")
+                }
+        }
     }
 }
 
